@@ -11,7 +11,7 @@ const Header = () => {
           <h1
             className="text-2xl font-semibold"
             aria-label="App Name">
-            Calculator App
+            Age Calculator
           </h1>
         </Link>
 
