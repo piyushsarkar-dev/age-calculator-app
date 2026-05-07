@@ -1,4 +1,4 @@
-import BasicCalculator from "@/components/customui/BasicCalculator";
+import AdvancedCalculator from "@/components/customui/AdvancedCalculator";
 import {
   Card,
   CardContent,
@@ -8,8 +8,8 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Basic | Age Calculator App",
-  description: "Basic Age Calculator App",
+  title: "Advanced | Age Calculator App",
+  description: "Advanced Age Calculator App",
 };
 
 const page = () => {
@@ -18,11 +18,11 @@ const page = () => {
       <Card className="min-w-xs">
         <CardHeader>
           <CardTitle className="grid place-items-center text-2xl">
-            Basic Age Calculator
+            Advanced Age Calculator
           </CardTitle>
         </CardHeader>
         <CardContent>
-          <BasicCalculator />
+          <AdvancedCalculator />
         </CardContent>
       </Card>
     </section>
